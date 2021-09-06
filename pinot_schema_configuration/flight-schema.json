@@ -1,0 +1,31 @@
+{
+    "schemaName": "sch_kafka_flight_json",
+    "dimensionFieldSpecs": [
+      {
+        "name": "id",
+        "dataType": "INT"
+      },
+      {
+        "name": "customer_id",
+        "dataType": "INT"
+      },
+      {
+        "name": "aeroporto",
+        "dataType": "STRING"
+      },
+      {
+        "name": "linha_aerea",
+        "dataType": "STRING"
+      },
+      {
+        "name": "cod_iata",
+        "dataType": "STRING"
+      }
+    ],
+    "dateTimeFieldSpecs": [{
+      "name": "dt_update",
+      "dataType": "LONG",
+      "format" : "1:MILLISECONDS:EPOCH",
+      "granularity": "1:MILLISECONDS"
+    }]
+  }

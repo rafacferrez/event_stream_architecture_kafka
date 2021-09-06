@@ -1,0 +1,39 @@
+{
+    "schemaName": "sch_kafka_customers_json",
+    "dimensionFieldSpecs": [
+      {
+        "name": "id",
+        "dataType": "INT"
+      },
+      {
+        "name": "customer_id",
+        "dataType": "INT"
+      },
+      {
+        "name": "ano_modelo",
+        "dataType": "STRING"
+      },
+      {
+        "name": "modelo",
+        "dataType": "STRING"
+      },
+      {
+        "name": "fabricante",
+        "dataType": "STRING"
+      },
+      {
+        "name": "ano_veiculo",
+        "dataType": "STRING"
+      },
+      {
+        "name": "categoria",
+        "dataType": "STRING"
+      }
+    ],
+    "dateTimeFieldSpecs": [{
+      "name": "dt_update",
+      "dataType": "LONG",
+      "format" : "1:MILLISECONDS:EPOCH",
+      "granularity": "1:MILLISECONDS"
+    }]
+  }
